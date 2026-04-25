@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="description" content="Barbearia Premium - estilo, cuidado e tradição">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Premium</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3efe9;
+        }
+
+        .topo {
+            background-color: #3e2723;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .topo img {
+            width: 120px;
+        }
+
+        .link-topo {
+            color: #d7a86e;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-topo:hover {
+            color: #ffffff;
+        }
+
+        .secao {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* BANNER AJUSTADO */
+        .banner img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        /* IMAGENS AJUSTADAS */
+        .imagem {
+            width: 50%;
+            max-width: 400px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .texto-azul {
+            color: #3e2723;
+        }
+
+        .paragrafo-sobre {
+            font-size: 18px;
+            color: #5d4037;
+        }
+
+        .link {
+            color: #3e2723;
+            font-weight: bold;
+        }
+
+        .link:hover {
+            color: #d7a86e;
+        }
+
+        .servicos {
+            background-color: #3e2723;
+            color: #ffffff;
+        }
+
+        .item-lista-servicos {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .contato {
+            background-color: #efebe9;
+        }
+
+        .paragrafo-contato {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .lista-contato {
+            list-style: none;
+            padding: 0;
+        }
+
+        .link-contato {
+            text-decoration: none;
+            color: #3e2723;
+            font-weight: bold;
+        }
+
+        .link-contato:hover {
+            color: #d7a86e;
+        }
+
+        /* RESPONSIVO */
+        @media (max-width: 768px) {
+            .imagem {
+                width: 90%;
+            }
+
+            .banner img {
+                height: 250px;
+            }
+
+            .secao {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TOPO -->
+    <div class="secao topo">
+        <img src="ChatGPT Image 20 de abr. de 2026, 21_26_25.png" alt="Logo Barbearia">
+
+        <p>
+            <a class="link-topo" href="#sobre">Sobre</a>
+            <a class="link-topo" href="#servicos">Serviços</a>
+            <a class="link-topo" href="#barbeiros">Barbeiros</a>
+            <a class="link-topo" href="#contato">Contato</a>
+        </p>
+    </div>
+
+    <!-- BANNER -->
+    <div class="secao banner">
+        <img src="ChatGPT Image 20 de abr. de 2026, 21_19_24.png" alt="Banner Barbearia">
+    </div>
+
+    <!-- SOBRE -->
+    <div id="sobre" class="secao">
+        <h1>Estilo e tradição em cada corte</h1>
+        <h2>A barbearia ideal para o homem moderno</h2>
+
+        <img class="imagem" src="ChatGPT Image 20 de abr. de 2026, 21_34_30.png" alt="Ambiente da barbearia">
+
+        <p class="paragrafo-sobre">
+            Há <span class="texto-azul">10 anos</span> oferecendo cortes de qualidade e atendimento diferenciado.
+        </p>
+    </div>
+
+    <!-- BARBEIROS -->
+    <div id="barbeiros" class="secao">
+        <h3 class="texto-azul">BARBEIROS</h3>
+
+        <img class="imagem" src="ChatGPT Image 20 de abr. de 2026, 21_18_29.png" alt="Barbeiro profissional">
+
+        <p>
+            Profissionais experientes prontos para cuidar do seu visual.
+            <a class="link" href="mailto:contato@barbearia.com">Fale com a equipe</a>
+        </p>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <div id="servicos" class="secao servicos">
+        <h3>SERVIÇOS</h3>
+
+        <ul>
+            <li class="item-lista-servicos">Corte de cabelo</li>
+            <li class="item-lista-servicos">Barba</li>
+            <li class="item-lista-servicos">Sobrancelha</li>
+            <li class="item-lista-servicos">Hidratação capilar</li>
+        </ul>
+    </div>
+
+    <!-- CONTATO -->
+    <div id="contato" class="secao contato">
+        <h3>CONTATO</h3>
+
+        <iframe
+            src="https://www.google.com/maps?q=Rua+Quito+226+Penha+Circular+RJ&output=embed"
+            width="80%"
+            height="300"
+            style="border:0;"
+            loading="lazy">
+        </iframe>
+
+        <p class="paragrafo-contato">
+            📍 Rua Quito, 226 - Penha Circular, Rio de Janeiro
+        </p>
+
+        <ul class="lista-contato">
+            <li><a class="link-contato" href="#">Unidade Penha</a></li>
+            <li><a class="link-contato" href="#">Unidade Centro</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
